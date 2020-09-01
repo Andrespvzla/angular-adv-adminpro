@@ -5,6 +5,14 @@
    animation-fill-mode:both
 }
 
-#themecolors .selector {
+#themecolors .selector, .cursor {
    cursor: pointer;
+}
+
+.abcRioButton:hover {
+   box-shadow: 0 0 3px 3px #26323824 !important;
+}
+
+.abcRioButtonContents {
+   margin-right: 35px !important;
 }
